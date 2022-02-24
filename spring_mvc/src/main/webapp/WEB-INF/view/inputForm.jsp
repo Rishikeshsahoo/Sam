@@ -13,17 +13,25 @@
   <body>
     <h1>Hello, world!!!!</h1>
     
-    <form action="">
+    <form action="processForm">
     	<label for="fname">First name:</label><br>
-  		<input type="text" id="fname" name="fname"><br>
+  		<input  type="text" id="fname" name="fname"><br>
   		<label for="fname">Password:</label><br>
   		<input type="password" id="fname" name="fname"><br>
-		<input type="radio" id="html" name="fav_language" value="HTML">
-	  	<label for="html">HTML</label><br>
-	  	<input type="radio" id="css" name="fav_language" value="CSS">
-	  	<label for="css">CSS</label><br>
+		<input type="radio" id="html" name="sex" value="M">
+	  	<label for="html">Male</label><br>
+	  	<input type="radio" id="css" name="sex" value="F">
+	  	<label for="css">Female</label><br>
 	  	<label for="fname">First name:</label><br>
-		<textarea rows="10" cols="50"></textarea><br>
+		<textarea name="text" rows="10" cols="50"></textarea><br>
+		
+		<input type="checkbox" id="vehicle1" name="sam" value="Bike">
+ 		 <label for="vehicle1"> I have a bike</label><br>
+  		<input type="checkbox" id="vehicle2" name="sam" value="Car">
+  		<label for="vehicle2"> I have a car</label><br>
+  		<input type="checkbox" id="vehicle3" name="sam" value="Boat">
+  		<label for="vehicle3"> I have a boat</label><br><br>
+		
 		<button class="btn btn-primary" type="submit">Submit</button>	    		
     
     </form>
