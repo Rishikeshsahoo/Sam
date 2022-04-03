@@ -19,15 +19,15 @@
 	
 	<label for="name">Description(*)</label>
 	<form:input type="textarea" row="100" col="100" path="description" /> 
-	<form:errors path="name" cssClass="error"/><br><br>
+	<form:errors path="description" cssClass="error"/><br><br>
 	
 	<label for="name">Category(*)</label>
 	<form:input type="text" path="category" /> 
-	<form:errors path="name" cssClass="error"/><br><br>
+	<form:errors path="category" cssClass="error"/><br><br>
 	
 	<label for="name">Price(*)</label>
 	<form:input type="text" path="price" /> 
-	<form:errors path="name" cssClass="error"/><br><br>
+	<form:errors path="price" cssClass="error"/><br><br>
 	
 	
 	
