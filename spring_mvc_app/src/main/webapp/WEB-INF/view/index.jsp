@@ -4,6 +4,6 @@
 <br>
 <hr>
 <br>
-<a href = "verify/showForm" >Take me to input form page</a>
+<a href = "showloginform" >Take me to input form page</a>
 </body>
 </html>

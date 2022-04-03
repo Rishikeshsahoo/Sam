@@ -59,6 +59,21 @@
 			<version>2.3.3</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.2.3.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator-cdi</artifactId>
+			<version>6.2.3.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator-annotation-processor</artifactId>
+			<version>6.2.3.Final</version>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.glassfish.web/javax.servlet.jsp.jstl -->
 		<!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/javax.servlet.jsp.jstl-api -->
@@ -68,26 +83,13 @@
 			<version>1.2.1</version>
 		</dependency>
 
+
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 			<version>5.3.14</version>
 		</dependency>
-		<dependency>
-  <groupId>org.hibernate.validator</groupId>
-  <artifactId>hibernate-validator-cdi</artifactId>
-  <version>6.2.3.Final</version>
-</dependency>
-<dependency>
-  <groupId>org.hibernate.validator</groupId>
-  <artifactId>hibernate-validator-annotation-processor</artifactId>
-  <version>6.2.3.Final</version>
-  </dependency>
-  <dependency>
-  <groupId>org.hibernate.validator</groupId>
-  <artifactId>hibernate-validator</artifactId>
-  <version>6.2.3.Final</version>
-</dependency>
 	</dependencies>
 
 	<build>
